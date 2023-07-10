@@ -84,6 +84,10 @@ a {
     text-decoration: none
 }
 
+.address-list {
+    font-style: normal;
+}
+
 .address-list-link {
     font-family: var(--primary-font);
     color: var(--primary-font-color);
@@ -91,15 +95,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: right;
-    font-style: normal;
 }
 
-.head-navigation .list .link {
-    list-style: none;
-}
-
-.address-list a:hover,
-.address-list a:focus {
+.address-list-link:hover,
+.address-list-link:focus {
     color: var(--pressed-state-color);
     text-decoration: none;
 }
@@ -166,6 +165,15 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+}
+
+.filter-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .studio-team {
